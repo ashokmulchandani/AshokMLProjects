@@ -6,6 +6,6 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirement.txt
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["python", "application_deploy_1.py"]
